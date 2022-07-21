@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#carta {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 400px;
+    border-radius: 5%;
+}
+
+.top{
+    display:flex;
+    color: red;
+    font-size: 70px;
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+}
+.bot{
+    position:absolute;
+    color: red;
+    font-size: 70px;
+    padding-right: 10px;
+    margin-top: 315px;
+    margin-left: 200px;
+}
+.topn{
+    display:flex;
+    color: black;
+    font-size: 70px;
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+}
+.botn{
+    position:absolute;
+    color: black;
+    font-size: 70px;
+    padding-right: 10px;
+    margin-top: 315px;
+    margin-left: 200px;
+}
+
+
+
+.numero{
+    position: relative;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 120px;
+    height: 150px;
+    margin-left: 1vw;
+}
