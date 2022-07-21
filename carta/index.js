@@ -19,7 +19,7 @@ function random(cartas) {
   carta.innerHTML =
     forma == "♠" || forma == "♣" ? 
     `<span class="topn">${forma}</span><span class="numero">${valor}</span><span class="botn">${forma}</span>` : 
-    `<span class="top">${forma}</span><span class="numero">${valor}</span><span class="bot">${forma}</span>`;
+    `<span class="top">${forma}</span><span class="numeron">${valor}</span><span class="bot">${forma}</span>`;
 }
 
 const cartas = aleatorioVal();
